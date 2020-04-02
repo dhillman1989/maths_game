@@ -1,9 +1,6 @@
 import React, { Component } from "react";
 import "./Game.css";
-import Addition from "./Addition";
-import Subtraction from "./Subtraction";
 import Multiplication from "./Multiplication";
-import Division from "./Division";
 
 class Game extends Component {
   constructor(props) {
