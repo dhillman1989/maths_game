@@ -1,0 +1,74 @@
+.Game {
+  text-align: center;
+  margin: auto;
+  height: 100vh;
+  font-size: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Game p,
+.Game h6 {
+  font-size: 20px;
+  padding: 0px;
+  margin: 10px;
+}
+
+.Game h6 {
+  color: #fff;
+}
+
+.Multiplication,
+.Addition,
+.Subtraction,
+.Division {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  padding: 50px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.result-container {
+  height: 200px;
+}
+
+.result {
+  display: none;
+}
+
+.correct {
+  color: green;
+  display: block;
+}
+
+.incorrect {
+  color: rgb(0, 0, 0);
+  display: block;
+}
+
+input {
+  margin-top: 20px;
+  width: 300px;
+  height: 50px;
+  font-size: 50px;
+  border-radius: 20px;
+  outline: none;
+  border: 0px;
+  padding-left: 25px;
+}
+
+button {
+  width: 150px;
+  margin-top: 25px;
+  border: 0px;
+  padding: 30px;
+  border-radius: 20px;
+  color: #fff;
+  background: rgb(17, 110, 187);
+  cursor: pointer;
+}
