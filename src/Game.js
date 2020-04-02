@@ -9,7 +9,7 @@ class Game extends Component {
       correct: null,
       num_answered: 0,
       wrong_answers: 0,
-      maxVal: 15,
+      maxVal: 12,
       answerInput: "",
       num1: 0,
       num2: 0,
