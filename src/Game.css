@@ -44,11 +44,13 @@
 .correct {
   color: green;
   display: block;
+  font-size: 30px;
 }
 
 .incorrect {
   color: rgb(0, 0, 0);
   display: block;
+  font-size: 30px;
 }
 
 input {
